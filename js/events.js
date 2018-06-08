@@ -5,6 +5,12 @@ function getIt() {
   })
 }
 
+function frameIt() {
+  ('img').on('load', function() {
+    img.addClassName('tasty');
+  })
+}
+
 $(document).ready(function(){
 
 // call functions here
