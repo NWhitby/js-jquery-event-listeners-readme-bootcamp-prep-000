@@ -11,6 +11,12 @@ function frameIt() {
   })
 }
 
+function pressIt() {
+  $('input').on('keydown', function() {
+    alert('G');
+  })
+}
+
 $(document).ready(function(){
 
 // call functions here
